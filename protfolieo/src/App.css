@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 35%;
+  margin-right:auto;
+  margin-left: auto;
+}
+ul.skills {
+  line-height: 2rem;
+  list-style-type: none;
+}
+
+ul.skills li {
+  list-style-type: circle;
+}
+.my-2 {
+  margin-top: var(--spacing-two);
+  margin-bottom: var(--spacing-two);
+}
+
+.my-5 {
+  margin-top: var(--spacing-five);
+  margin-bottom: var(--spacing-five);
+}

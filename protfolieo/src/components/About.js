@@ -3,7 +3,10 @@ import React from 'react';
 function About() {
   return (
     <div>
-        <h2>this is the about page</h2>
+         <div className="abouttext">
+                {/* <img src="./assets/fam pic .png"> */}
+                <p> Fill in about me after I wright an 'About me'</p>
+            </div>
     </div>
   );
 }
