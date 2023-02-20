@@ -1,9 +1,15 @@
 import React from 'react';
-
+import { Parallax } from 'react-parallax';
 function Resume() {
   return (
     <div>
-        <section className="my-5">
+           <Parallax
+        blur={{ min: -15, max: 15 }}
+        bgImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Gwd6xFplutiexjdV6e9eD4yrwcPNI061GQ&usqp=CAU"
+        bgImageAlt="the dog"
+        strength={-200}
+    >
+        <section className="my-5 resumetext section">
       <div className="my-2">
       <p>
         Download my <a href="https://www.linkedin.com/">resume</a>
@@ -29,6 +35,8 @@ function Resume() {
         </ul>
       </div>
     </section>
+    <div style={{ height: '200px' }} />
+    </Parallax>
     </div>
   );
 }
